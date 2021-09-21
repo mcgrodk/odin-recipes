@@ -1,22 +1,21 @@
 body, a {
     background-color: rgb(18, 18, 180);
     color: yellow;
-    font-family: "Helvetica", sans-serif;
-    text-align: justify;
+    font-family: "Georgia", serif;
+    text-align: auto;
+}
+p, ul, ol, li {
+    color: white;
+    font-family: "Georgia", serif;
+    text-align: left;
 }
 img {
     width: 400px;
     height: auto;
 }
-.title {
-    font-size: 40px;
-    font-family: "ITC Souvenir Bold", "Helvetica", sans-serif;
-}
 a:hover {
     color: purple;
 }
-p, ul, ol, li {
-    color: white;
-    font-family: "Helvetica", sans-serif;
-    width: 75%;
+ul {
+    list-style-type: square;
 }
